@@ -1,0 +1,12 @@
+**/.env
+**/.venv
+**/build
+**.egg-info
+**/__pycache__
+**/mlflow-runs
+**/.mypy_cache
+**/.vscode
+**/logs
+**/sessions
+**/INSTRUCTIONS.md
+**/.DS_Store

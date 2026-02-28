@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "LoResLift"
+version = "0.1.0"
+description = "A framework for augmenting LLM code assistance capabilities"
+requires-python = ">=3.11"
+dependencies = [
+    "python-dotenv>=1.2.1",
+]
