@@ -8,8 +8,8 @@ from typing import Any, Dict, List, Tuple
 import jsonlines
 from tqdm import tqdm
 
-from prompts import J2K_FIXUP_TEMPLATE, J2K_TRANSLATION_TEMPLATE
-from utils import clean_answer, generate, read_jsonl, run_generic_pipeline, write_jsonl
+from src.HumanEval.prompts import J2K_FIXUP_TEMPLATE, J2K_TRANSLATION_TEMPLATE
+from src.HumanEval.utils import clean_answer, generate, read_jsonl, run_generic_pipeline, write_jsonl
 
 
 # --------------------------------
