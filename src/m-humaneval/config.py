@@ -4,10 +4,10 @@ import os
 
 
 class OutputPath(str, Enum):
-    DIRECT = "results-direct"
-    PIVOT_LLM = "results-pivot-llm"
-    PIVOT_RB = "results-pivot-rb"
-    PIVOT_RB_LLM = "results-pivot-rb-llm"
+    DIRECT = "direct"
+    PIVOT_LLM = "pivot-llm"
+    PIVOT_RB = "pivot-rb"
+    PIVOT_RB_LLM = "pivot-rb-llm"
 
 
 def make_paths(model_id: str, pipeline_type: str, project_dir: str) -> SimpleNamespace:
